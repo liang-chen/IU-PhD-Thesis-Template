@@ -8,9 +8,9 @@
 
 *2018*
 
-This is a thesis template that meets the official dissertation formatting requirements from Indiana University Bloomington.
+This is a thesis template that meets the [official dissertation formatting requirements](https://graduate.indiana.edu/thesis-dissertation/formatting/doctoral.html) from Indiana University Bloomington.
 
-Usage of the Template
+# Usage of the Template
 
 1. Open the "titePage.tex" file, and input your information in the designated section.
 2. Open the "approvalPage.tex" file, and input your information in the designated section.
