@@ -1,0 +1,61 @@
+%% Define your committee members. If you have less than 6, simple delete/comment the unused lines
+
+\newcommand{\committeeChairpersonTypedName}{Name}
+\newcommand{\committeeChairpersonPostNominalInitials}{Post-Nominal Initials}
+
+\newcommand{\committeeMemberTwoTypedName}{Name}
+\newcommand{\committeeMemberTwoPostNominalInitials}{Post-Nominal Initials}
+
+\newcommand{\committeeMemberThreeTypedName}{Name}
+\newcommand{\committeeMemberThreePostNominalInitials}{Post-Nominal Initials}
+
+\newcommand{\committeeMemberFourTypedName}{Name}
+\newcommand{\committeeMemberFourPostNominalInitials}{Post-Nominal Initials}
+
+% Uncomment to add another committee member
+%\newcommand{\committeeMemberFiveTypedName}{Name}
+%\newcommand{\committeeMemberFivePostNominalInitials}{Post-Nominal Initials}
+
+\newcommand{\myRule}{\rule{0.5\textwidth}{0.4pt}}
+
+\newcommand{\approvalDay}{04}
+\newcommand{\approvalMonth}{05}
+\newcommand{\approvalYear}{2018}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Do not edit these lines unless you wish to customize
+% the template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newgeometry{left=1in}
+
+\begin{center}
+ 
+Accepted by the Graduate Faculty, Indiana University, in partial fulfillment of the requirements for the degree of Doctor of Philosophy.
+
+\end{center}
+
+\vspace{2\baselineskip}
+
+\ifdefined\committeeMemberFourTypedName
+Doctoral Committee\\
+
+\null\hfill \myRule\\
+\null\hfill \committeeChairpersonTypedName, \committeeChairpersonPostNominalInitials\\
+\null\hfill \myRule\\
+\null\hfill \committeeMemberTwoTypedName, \committeeMemberTwoPostNominalInitials\\
+\null\hfill \myRule\\
+\null\hfill \committeeMemberThreeTypedName, \committeeMemberThreePostNominalInitials\\
+\null\hfill \myRule\\
+\null\hfill \committeeMemberFourTypedName, \committeeMemberFourPostNominalInitials\\
+
+\ifdefined\committeeMemberFiveTypedName
+\null\hfill \myRule\\
+\null\hfill \committeeMemberFiveTypedName, \committeeMemberFivePostNominalInitials\\
+\fi
+
+\fi
+\vfill
+Date of Defense: \approvalMonth/\approvalDay/\approvalYear
+\restoregeometry
