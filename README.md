@@ -21,7 +21,7 @@ After these steps are complete, the main content of the thesis can be entered in
 
 To compile the template, using your preferred TeX editor, run the following commands in sequence:
 
-1. pdflatex
-2. bibtex
-3. pdflatex
-4. pdflatex
+1. pdflatex thesis.tex
+2. bibtex thesis.aux
+3. pdflatex thesis.tex
+4. pdflatex thesis.tex
